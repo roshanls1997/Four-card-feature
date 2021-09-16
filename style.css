@@ -1,0 +1,86 @@
+.page-container {
+	background-color: hsl(0, 0%, 98%);
+}
+.page-content {
+	width: 80%;
+	margin: 2em auto;
+	max-width: 1000px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+h1, h2, h3, p {
+	margin: 0;
+}
+
+.hero-content {
+	text-align: center;
+	padding: 2em 0;
+}
+
+.hero-subheading {
+	font-weight: 200;
+}
+
+.hero-heading {
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+.hero-desc {
+	color: hsl(229, 6%, 66%);
+}
+
+.box {
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 2em 0;
+	padding: 1em;
+	border-radius: .25em;
+}
+
+.box-desc {
+	margin: 1em 0;
+}
+
+.box1 {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.box2 {
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.box3 {
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.box4 {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+.box-img {
+	margin-left: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+	.d-flex {
+		display: flex;
+		gap: 1em;
+	}
+	.d-flex > * {
+		width: 33.33%;
+	}
+	.box1, .box4 {
+		align-self: center;
+	}
+}
